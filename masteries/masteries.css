@@ -27,7 +27,7 @@
 .square {
 	height: 48px;
 	width: 48px;
-	background-image: url('masteries/masteries.jpg');
+	background-image: url('images/masteries.jpg');
 	background-repeat: no-repeat;
 	border-style: solid;
 	border-width: 1px;
@@ -38,7 +38,7 @@
 }
 
 .square.gray {
-	background-image: url('masteries/gray_masteries.png');
+	background-image: url('images/gray_masteries.png');
 }
 
 .blank-square {
@@ -47,7 +47,7 @@
 }
 
 .dependent-bar {
-	background-image: url('masteries/mastery-arrow.jpg');
+	background-image: url('images/mastery-arrow.jpg');
 	height: 40px;
 	width: 9px;
 	border-style: solid;
