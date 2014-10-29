@@ -1,0 +1,488 @@
+{
+	"masteries" : {
+		"offense" : {
+			"row1" : [
+				{
+					"name" : "Double-Edged Sword",
+					"column" : 1,
+					"number" : 1,
+					"max_rank" : 1,
+					"desc" : "Melee - Deal an addition 2% damage and receive an addition"
+				},
+				{
+					"name" : "Fury",
+					"column" : 2,
+					"number" : 2,
+					"max_rank" : 4,
+					"desc" :  "+#% Attack Speed",
+					"stats" : [0,1,25,2.5,3.75,5]
+				},
+				{
+					"name" : "Sorcery",
+					"column" : 3,
+					"number": 3,
+					"max_rank" : 4,
+					"desc" : "+#% Cooldown Reduction",
+					"stats" : [0,1,25,2.5,3.75,5]
+				},
+				{
+					"name" : "Butcher",
+					"column" : 4,
+					"number" : 4,
+					"max_rank" : 1,
+					"desc" : "Basic attacks and single target spells deal an additional 2 damage to minions and monsters. This does not trigger off of area of effect damage or damage over time effects."
+				}
+			],
+			"row2" : [
+				{
+					"name" : "Expose Weakness",
+					"column" : 1,
+					"number" : 5,
+					"max_rank" : 1,
+					"desc" : "Damage an enemy with a spell increases allied champions' damage to that enemy by 1% for the next 3 seconds"
+				},
+				{
+					"name" : "Brute Force",
+					"column" : 2,
+					"number" : 6,
+					"max_rank" : 3,
+					"desc" : "+# Attack Damage at level 18 (# Attack Damage per level)",
+					"stats" : [0.22,0.39,0.55]
+				},
+				{
+					"name" : "Mental Force",
+					"column" : 3,
+					"number" : 7,
+					"max_rank" : 3,
+					"desc" : ""
+				},
+				{
+					"name" : "Feast",
+					"column" : 4,
+					"number" : 8,
+					"max_rank" : 1,
+					"dependent" : 4,
+					"desc" : ""
+				}
+			],
+			"row3" : [
+				{
+					"name" : "Spell Weaving",
+					"column" : 1,
+					"number" : 9,
+					"max_rank" : 1,
+					"desc" : ""
+				},
+				{
+					"name" : "Martial Mastery",
+					"column" : 2,
+					"number" : 10,
+					"max_rank" : 1,
+					"dependent" : 6,
+					"desc" : ""
+				},
+				{
+					"name" : "Arcane Mastery",
+					"column" : 3,
+					"number" : 11,
+					"max_rank" :1 ,
+					"dependent" : 7,
+					"desc" : ""
+				},
+				{
+					"name" : "Executioner",
+					"column" : 4,
+					"number" : 12,
+					"max_rank" : 3,
+					"desc" : ""
+				}
+			],
+			"row4" : [
+				{
+					"name" : "Blade Weaving",
+					"column" : 1,
+					"number" : 13,
+					"max_rank" : 1,
+					"dependent" : 9,
+					"desc" : ""
+				},
+				{
+					"name" : "Warlord",
+					"column" : 2,
+					"number" : 14,
+					"max_rank" : 3,
+					"desc" : "Increases bonus Attack Damage by #%",
+					"stats" : [2,3.5,5]
+				},
+				{
+					"name" : "Archmage",
+					"column" : 3,
+					"number" : 15,
+					"max_rank" : 3,
+					"desc" : "Increases Ability Power by #%",
+					"stats" : [2,3.5,5]
+				},
+				{
+					"name" : "Dangerous Game",
+					"column" : 4,
+					"number" : 16,
+					"max_rank" : 1,
+					"dependent" : 12,
+					"desc" : "Champions kills and assists restore 5% missing Health and Mana"
+				}
+			],
+			"row5" : [
+				{
+					"name" : "Frenzy",
+					"column" : 1,
+					"number" : 17,
+					"max_rank" : 1,
+					"desc" : "Critical hits grants +5% Attack Speed for 3 seconds(stacks up to 3 times)"
+				},
+				{
+					"name" : "Devastating Strikes",
+					"column" : 2,
+					"number" : 18,
+					"max_rank" : 3,
+					"desc" : "+#% Armor and Magic Penetration",
+					"stats" : [2,4,6]
+				},
+				{
+					"name" : "Arcane Blade",
+					"column" : 4,
+					"number" : 19,
+					"max_rank" : 1,
+					"desc" : "Basic Attacks also deal bonus magic damage equal to 5% of Ability Power"
+				}
+			],
+
+			"row6" : [
+				{
+					"name" : "Havoc",
+					"column" : 2,
+					"number" : 20,
+					"max_rank" : 1,
+					"desc" : "+3% increased damage"
+				}
+			]
+		},
+		"defense" : {
+			"row1" : [
+				{
+					"name" : "Block",
+					"column" : 1,
+					"number" : 1,
+					"max_rank" : 2,
+					"desc" : "Reduces incoming damage from champion basic attacks by #",
+					"stats" : [1,2]
+				},
+				{
+					"name" : "Recovery",
+					"column" : 2,
+					"number" : 2,
+					"max_rank" : 2,
+					"desc" : "+# Health per 5 seconds",
+					"stats" : [1,2]
+				},
+				{
+					"name" : "Enchanted Armor",
+					"column" : 3,
+					"number" : 3,
+					"max_rank" : "2",
+					"desc" : "Increases bonus Armor and Magic Resist by #%",
+					"stats" : [2.5, 5]
+				},
+				{
+					"name" : "Tough Skin",
+					"column" : 4,
+					"number" : 4,
+					"max_rank" : 2,
+					"desc" : "Reduces damage take from neutral monsters by # \nThis does not affect lane minions",
+					"stats" : [1,2]
+				}
+			],
+			"row2" : [
+				{
+					"name" : "Unyielding",
+					"column" : 1,
+					"number" : 5,
+					"max_rank" : 1,
+					"dependent" : 1,
+					"desc" : "Melee - Reduces all incoming damage from champions by 2\nRanged - Reduces all incoming damage from champions by 1"
+				},
+				{
+					"name" : "Veteran's Scars",
+					"column" : 2,
+					"number" : 6,
+					"max_rank" : 3,
+					"desc" : "+# Health",
+					"stats" : [12, 24, 36]
+				},
+				{
+					"name" : "Bladed Armor",
+					"column" : 4,
+					"number" : 7,
+					"max_rank" : 1,
+					"dependent" : 4,
+					"desc" : "Taking Basic Attack Damage from neutral monsters cause them to bleed, dealing physical damage equal to 1% of their current Health each second\nThis does not work against lane minions"
+				}
+			],
+			"row3" : [
+				{
+					"name" : "Opression",
+					"column" : 1,
+					"number" : 8,
+					"max_rank" : 1,
+					"desc" : "Reduces damage taken by 3% from enemies that have impaired movement (slows, snares, taunts, stuns, etc)",
+					"stats" : [3]
+				},
+				{
+					"name" : "Juggernaut",
+					"column" : 2,
+					"number" : 9,
+					"max_rank" : 1,
+					"dependent" : 6,
+					"desc" : "+3% Maximum Health",
+					"stats" : [3]
+				},
+				{
+					"name" : "Hardiness",
+					"column" : 3,
+					"number" : 10,
+					"max_rank" : 3,
+					"desc" : "+# Armor",
+					"stats" : [2,3.5,5]
+				},
+				{
+					"name" : "Resistance",
+					"column" : 4,
+					"number" : 11,
+					"max_rank" :3 ,
+					"desc" : "+# Magic Resist",
+					"stats" : [2,3.5,5] 
+				}
+			],
+			"row4" : [
+				{
+					"name" : "Perserverance",
+					"column" : 1,
+					"number" : 12,
+					"max_rank" :3 ,
+					"desc" : "Regenerates #% of missing Health every 5 seconds",
+					"stats" : [0.35, 0.676, 1] 
+				},
+				{
+					"name" : "Swiftness",
+					"column" : 2,
+					"number" : 13,
+					"max_rank" :1 ,
+					"desc" : "Reduces the effectiveness of slows by #%",
+					"stats" : [10] 
+				},
+				{
+					"name" : "Reinforced Armor",
+					"column" : 3,
+					"number" : 14,
+					"max_rank" :1 ,
+					"desc" : "Reduces the total damage taken from critical strikes by #%",
+					"stats" : [10] 
+				},
+				{
+					"name" : "Evasive",
+					"column" : 4,
+					"number" : 15,
+					"max_rank" : 1,
+					"desc" : "Reduces damage taken by #% from Area of Effect magic damage",
+					"stats" : [4]
+				}				
+			],
+			"row5" : [
+				{
+					"name" : "Second Wind",
+					"column" : 1,
+					"number" : 16,
+					"max_rank" : 1,
+					"desc" : "Increases self-healing, Health Regen, Lifesteal, and Spellvamp by #% when below 25% Health",
+					"stats" : [10]
+				},
+				{
+					"name" : "Legendary Guardian",
+					"column" : 2,
+					"number" : 17,
+					"max_rank" : 4,
+					"desc" : "+# Armor and # Magic Resist for each nearby enemy champion",
+					"stats" : [1,2,3,4, 0.5,1,1.5,2]
+				},
+				{
+					"name" : "Runic Blessing",
+					"column" : 3,
+					"number" : 18,
+					"max_rank" : 1,
+					"desc" : "Start the game with a 50 Health shield. This shield regenerates each time after respawning"
+				}			
+			],
+			"row6" : [
+				{
+					"name" : "Tenacious",
+					"column" : 2,
+					"number" : 19,
+					"max_rank" : 1,
+					"desc" : "Reduces the duration of crowd control effects by 15%"
+				}
+			]
+		},
+		"utility" : {
+			"row1" : [
+				{
+					"name" : "Phasewalker",
+					"column": 1,
+					"number" : 1,
+					"max_rank" : 1,
+					"desc" : "Reduces the casting time of Recall by 1 second\nDominion - Reduces the casting time of Enhanced Recall by 0.5 seconds"
+				},
+				{
+					"name" : "Fleet of Foot",
+					"column": 2,
+					"number" : 2,
+					"max_rank" : 3,
+					"desc" : "+#% Movement Speed",
+					"stats" : [0.5] 
+				},
+				{
+					"name" : "Meditation",
+					"column": 3,
+					"number" : 3,
+					"max_rank" : 3,
+					"desc" : "+n Mana Regen per 5 seconds",
+					"stats" : [1,2,3]
+				},
+				{
+					"name" : "Scout",
+					"column": 4,
+					"number" : 4,
+					"max_rank" : 1,
+					"desc" : "Increases the cast range of trinket items by 15%"
+				}
+			],
+			"row2" : [
+				{
+					"name" : "Summoner's Insight",
+					"column": 2,
+					"number" : 5,
+					"max_rank" : 3,
+					"desc" : "Reduces the cooldown of Summoner Spells by n%",
+					"stats" : [4,7,10]
+				},
+				{
+					"name" : "Strength of Spirit",
+					"column": 3,
+					"number" : 6,
+					"max_rank" : 1,
+					"dependent" : 3,
+					"desc" : "+1 Health Regen per 5 seconds for every 300 maximum Mana"
+				},
+				{
+					"name" : "Alchemist",
+					"column": 4,
+					"number" : 7,
+					"max_rank" : 1,
+					"desc" : "Increases the duration of potions and elixers by 10%"
+				}
+			],
+			"row3" : [
+				{
+					"name" : "Greed",
+					"column": 1,
+					"number" : 8,
+					"max_rank" : 3,
+					"desc" : "+n Gold every 10 seconds",
+					"stats" : [0.5,1,1.5]
+				},
+				{
+					"name" : "Runic Affinity",
+					"column": 2,
+					"number" : 9,
+					"max_rank" : 1,
+					"desc" : "Increase the duration of shrine, relic, quest, and neutral monster buffs by 20%"
+				},
+				{
+					"name" : "Vampirism",
+					"column": 3,
+					"number" : 10,
+					"max_rank" : 3,
+					"desc" : "+n% Lifesteal and Spellvamp",
+					"stats" : [1,2,3]
+				},
+				{
+					"name" : "Culinary Master",
+					"column": 4,
+					"number" : 11,
+					"max_rank" : 1,
+					"dependent" : 7,
+					"desc" : "Health potions are upgraded into Biscuits that restore an additional 20 Health and 10 mana instantly upon consumption"
+				}
+			],
+			"row4" : [
+				{
+					"name" : "Scavenger",
+					"column": 1,
+					"number" : 12,
+					"max_rank" : 1,
+					"dependent" : 8,
+					"desc" : "+1 Gold each time an ally kills a nearby lane minion"
+				},
+				{
+					"name" : "Wealth",
+					"column": 2,
+					"number" : 13,
+					"max_rank" : 1,
+					"desc" : "+40 Starting Gold"
+				},
+				{
+					"name" : "Expanded Mind",
+					"column": 3,
+					"number" : 14,
+					"max_rank" : 3,
+					"desc" : "+n% increased maximum Mana",
+					"stats" : [2,3.5,5]
+				},
+				{
+					"name" : "Inspiration",
+					"column": 4,
+					"number" : 15,
+					"max_rank" : 2,
+					"desc" : "+n Experience every 10 seconds while near a higher level allied champion",
+					"stats" : [5,10]
+				}
+			],
+			"row5" : [
+				{
+					"name" : "Bandit",
+					"column": 2,
+					"number" : 16,
+					"max_rank" : 1,
+					"dependent" : 13,
+					"desc" : "Melee - Grants +15 Gold on champion kill or assist\nRanged - Grants +3 Gold each time an enemy champion is attacked. This cannot trigger on the same champion more than once every 5 seconds"
+				},
+				{
+					"name" : "Intelligence",
+					"column": 3,
+					"number" : 17,
+					"max_rank" : 3,
+					"desc" : "+n% Cooldown Reduction and reduces the cooldown of Activated Items by m%",
+					"stats" : [2,3.5,5],
+					"stats2" : [4,7,10]
+				}
+			],
+			"row6" : [
+				{
+					"name" : "Wanderer",
+					"column": 2,
+					"number" : 18,
+					"max_rank" : 1,
+					"desc" : "+5 Movement Speed out of combat"
+				}
+			]
+		}
+	}
+}

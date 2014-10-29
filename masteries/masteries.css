@@ -1,0 +1,91 @@
+#bigtable {
+	width: 810;
+	margin: 0 auto;
+}
+
+.content-border {
+	width: 270px;
+	height: 521px;
+	float:left;
+	position: relative;
+	margin: 0 auto;
+}
+
+.tree-border {
+	padding: 20px;
+	width: 248px;
+}
+
+.square-border {
+	float:left;
+	position: relative;
+	padding: 15px 5px;
+	height: 48px;
+	width: 48px;
+}
+
+.square {
+	height: 48px;
+	width: 48px;
+	background-image: url('masteries/masteries.jpg');
+	background-repeat: no-repeat;
+	border-style: solid;
+	border-width: 1px;
+	color: #FFFFFF;
+	clear: both;
+	position: relative;
+	z-index: 10;
+}
+
+.square.gray {
+	background-image: url('masteries/gray_masteries.png');
+}
+
+.blank-square {
+	height: 48px;
+	width: 48px;
+}
+
+.dependent-bar {
+	background-image: url('masteries/mastery-arrow.jpg');
+	height: 40px;
+	width: 9px;
+	border-style: solid;
+	border-width: 1px;
+	color: #FFFFFF;
+	margin-top: -95px;
+	margin-left: 19px;
+	/*note to self : children of a div cannot be behind a parent (siblings can be behind siblings)*/
+	z-index: 1;
+	position: relative;
+	opacity: 0.99;
+}
+
+.points {
+	height: 12px;
+	width: 18px;
+	line-height: 12px;
+	text-align: center;
+	position: relative;
+	font-family : "Serif", "Times", "Times New Roman";
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	padding-top: 1px;
+	margin-top: -10px;
+	margin-left: 30px;
+	z-index: 20;
+}
+
+#mastery-chart {
+	width: 1020px;
+	height: 521px;
+}
+
+.hasDependent {
+}
+
+.isDepedent {
+}
