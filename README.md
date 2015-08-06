@@ -10,6 +10,6 @@ http://terencewu.github.io/League/masteries/
 
 TODO:
 
--Clear all points
--Colored indicators to show filled in boxes
--Many other features to add
+*Clear all points
+*Colored indicators to show filled in boxes
+*Many other features to add
